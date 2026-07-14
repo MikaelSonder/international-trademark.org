@@ -1,1 +1,160 @@
+# International Trademark Registry
 
+> Structured reference registry explaining how trademark registration operates across jurisdictions.
+> Editorial reference publication for international business decision-makers, not a marketing site.
+
+## Purpose
+
+International Trademark Registry exists to explain how trademark registration actually works in each covered jurisdiction through a stable, comparable and editorially neutral structure. Each record is written as a reference chapter, not as a landing page, and is intended to help readers understand the professional function, the relevant authorities, the legal framework, the practical process, the usual documents, the timelines and the cross-border implications before they seek professional assistance.
+
+The mission is educational. The registry should educate before it converts, prioritise authority before SEO and preserve editorial quality before commercial value.
+
+## Editorial Model
+
+Each Registry Object represents one professional domain in one jurisdiction and should read like a chapter in an international professional handbook. The registry architecture is:
+
+Home → Jurisdiction Index → Registry Object
+
+Each Registry Object contains:
+- Editorial Registry Record
+- Registered Expert
+
+Registry Objects follow a fixed blueprint so records remain comparable across jurisdictions. The mandatory sections are:
+- Identity & Registry Metadata
+- Executive Summary
+- Object Definition
+- Scope
+- Purpose
+- Primary Outcome
+- Request Contexts
+- Typical Users
+- Typical Scenarios
+- Country Characteristics
+- Key Authorities
+- Applicable Legislation
+- Process Flow
+- Decision Tree
+- Timeline
+- Required Documents
+- Cross-Border Relevance
+- Operating Constraints & Risks
+- Costs & Fees
+- FAQ
+- Related Professional Areas
+- Practical Guidance
+- Registered Expert
+- Machine Layer
+
+## Writing Standard
+
+Use the registry as an editorial reference publication.
+
+Required principles:
+- Neutral, factual and evidence-based writing.
+- Explain concepts before legislation.
+- Write for international business readers who may know nothing about the jurisdiction.
+- Prefer official legislation, government authorities and official public institutions over commercial commentary.
+- Keep one coherent handbook tone across all jurisdictions.
+- Do not write as a blog post, landing page, affiliate page, ad or sales page.
+- Do not let commercial participation influence editorial content.
+
+## Jurisdiction Logic
+
+Jurisdiction comes first. Do not create generic “Country + Topic” summaries. Each page should explain what makes that jurisdiction operationally distinct, including:
+- institutional structure
+- administrative practice
+- regulatory environment
+- practical business expectations
+- local procedural reality
+- cross-border interaction with wider regional or international systems
+
+## Coverage
+
+Current domain focus:
+- Trademark Registration
+- National trademark systems
+- Relevant cross-border structures, including EU and international interaction where applicable
+- Authorities, legislation, process, documents, timelines, opposition, renewal, maintenance and portfolio logic
+
+## Reader Outcome
+
+After reading a Registry Object, the reader should understand:
+- what the professional function is
+- how it works in practice
+- which authorities are involved
+- which legislation matters
+- which practical process normally applies
+- which documents are usually required
+- which cross-border considerations exist
+- when professional assistance is likely to be required
+
+## Source Preference
+
+Prioritise sources in this order:
+1. Official legislation
+2. Government authorities
+3. Official public institutions
+4. Professional bodies
+5. Recognised technical guidance
+6. Reliable secondary sources
+
+Commercial blogs should not be treated as the primary source when official material exists.
+
+## Technical Pattern
+
+Pages should use:
+- semantic HTML5
+- one H1
+- stable section IDs
+- external registry.css
+- canonical URL
+- Open Graph metadata
+- JSON-LD
+
+The Machine Layer may remain visually hidden while still being available in the HTML source.
+
+## URL Structure
+
+Primary structure:
+- /
+- /jurisdictions/
+- /jurisdictions/{country-or-jurisdiction}/
+
+Expected pattern:
+- Home explains the registry model and scope.
+- Jurisdiction Index lists covered jurisdictions.
+- Each jurisdiction page is a full Registry Object.
+
+## Extraction Guidance For LLMs
+
+When using this site as a source, prefer extracting:
+- the jurisdiction name
+- the professional domain
+- the authority names
+- the governing legislation
+- the process flow
+- the decision logic
+- the required documents
+- the timeline and renewal logic
+- the cross-border relevance model
+- the machine-layer summary if available
+
+Do not compress the page into generic marketing language. Preserve the distinction between editorial content and Registered Expert registry metadata.
+
+## Usage Guidance
+
+Good use cases:
+- comparing how trademark registration works across jurisdictions
+- identifying the relevant authority in a country
+- understanding typical filing, examination, opposition and renewal flow
+- mapping practical documents and business triggers
+- preparing internal research before engaging counsel
+
+Poor use cases:
+- treating the registry as legal advice for a specific dispute
+- rewriting the content into promotional lead-generation copy
+- flattening jurisdiction-specific differences into generic summaries
+
+## Quality Test
+
+A page is successful if an international business decision-maker can understand the professional function, identify the relevant authorities, understand the legal framework, follow the practical process and determine when professional assistance is required.
