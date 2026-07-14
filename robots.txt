@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Core site files
+Sitemap: https://international-trademark.org/sitemap.xml
+
+# Optional AI-discovery files
+# These are intentionally crawlable.
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# If admin, drafts or staging areas are added later, disallow them explicitly.
+# Disallow: /admin/
+# Disallow: /drafts/
+# Disallow: /staging/
